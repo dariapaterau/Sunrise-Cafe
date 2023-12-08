@@ -3,94 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <title>Cafe Website</title>
-  <style>
-    /* CSS styles can be added here */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-    }
-    header {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 20px 0;
-    }
-    nav {
-      background-color: #444;
-      color: #fff;
-      text-align: center;
-      padding: 10px 0;
-    }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 15px;
-    }
-    section {
-      padding: 20px;
-    }
-    footer {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 10px 0;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Notable">
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Early Sunrise Cafe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Who are We?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
 
-  <header>
-    <h1>Welcome to Our Cafe</h1>
-    <p>Delicious food & great ambiance</p>
-  </header>
-
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#menu">Menu</a>
-    <a href="#about">About Us</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="home">
-    <h2>Home</h2>
-    <p>Welcome to our cafe! We serve fresh, tasty meals and beverages.</p>
-    <p>Check out our <a href="#menu">menu</a> to see what we offer.</p>
-  </section>
-
-  <section id="menu">
-    <h2>Menu</h2>
-    <p>Our delicious menu includes a variety of items such as coffee, sandwiches, salads, and pastries.</p>
-    <p>Here are some of our popular items:</p>
-    <ul>
-      <li>Cappuccino</li>
-      <li>Club Sandwich</li>
-      <li>Greek Salad</li>
-      <li>Chocolate Croissant</li>
-    </ul>
-  </section>
-
-  <section id="about">
-    <h2>About Us</h2>
-    <p>We are passionate about providing high-quality food and a cozy atmosphere for our customers.</p>
-    <p>Our cafe is located in the heart of the city and has been serving the community for over a decade.</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Visit us at:</p>
-    <p>123 Cafe Street, City</p>
-    <p>Phone: 123-456-7890</p>
-    <p>Email: info@cafesite.com</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2023 Cafe Site. All rights reserved.</p>
-  </footer>
-
+  <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Early Sunrise Cafe</h2>
+                <p class="hero_desc">the best start for an awesome day!</p>
+            </div>
+            </div>
+        </div>
+    </section>
 </body>
-</html>
