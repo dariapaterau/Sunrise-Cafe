@@ -1,18 +1,21 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('banner.jpeg');
+    background: url('banr.jpeg');
     background-size:cover;
     position:relative;
 }
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    font-family: "Notable", sans-serif;
+    color: #fbc074;
+    text-shadow: 5px 5px #1F0A0E;
 }
 .hero_desc {
     font-size: 2rem;
-    font-size: "Montserrat", sans-serif;
-    color: #1F0A0E;
+    font-family: "Love Ya Like A Sister", serif;
+    color: #fbc074;
 }
 .hero-text {
     text-align: center;
@@ -20,6 +23,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.navbar{
+    color: #fbc0748e;
     font-family: "Notable", sans-serif;
-    color: #F58B00;
+    font-color: #fbc074;
 }
