@@ -157,7 +157,7 @@ main {
     justify-content: space-around;
     align-items: flex-start;
     padding: 20px;
-    background-color: #e0dccc;
+    background-color: rgb(230, 224, 216)
 }
 
 main h2{
